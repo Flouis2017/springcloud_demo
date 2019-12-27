@@ -1,0 +1,14 @@
+eurekaserver模块：注册中心
+eurekaclient模块：模拟服务提供者——学生类CURD
+
+resttemplate模块：RestTemplate的基本使用，服务消费者基于RestTemplate
+
+consumer模块：模拟服务消费者——通过RestTemplate调用服务提供者接口，获取服务
+
+
+
+
+
+
+
+
