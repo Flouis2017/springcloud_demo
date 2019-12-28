@@ -14,6 +14,13 @@
 		<module>resttemplate</module>
 		<module>consumer</module>
 		<module>zuul</module>
+		<module>ribbon</module>
+		<module>feign</module>
+		<module>hystrix</module>
+		<module>nativeconfigserver</module>
+		<module>nativeconfigclient</module>
+		<module>zipkin</module>
+		<module>zipkinclient</module>
 	</modules>
 
 	<parent>

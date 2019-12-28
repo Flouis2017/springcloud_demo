@@ -4,8 +4,15 @@ eurekaclient模块：模拟服务提供者——学生类CURD
 resttemplate模块：RestTemplate的基本使用，服务消费者基于RestTemplate
 
 consumer模块：模拟服务消费者——通过RestTemplate调用服务提供者接口，获取服务
+zuul模块：模拟网关路由功能
+ribbon模块：模拟（请求）负载均衡
+feign（结合hystrix）模块：模拟负载均衡和熔断功能
+hystrix（结合feign/actuator）模块：模拟负载均衡/熔断/数据监控
 
+nativeconfigserver模块：模拟原生配置中心
+nativeconfigclient模块：模拟读取原生配置
 
+zipkin模块：模拟服务跟踪
 
 
 

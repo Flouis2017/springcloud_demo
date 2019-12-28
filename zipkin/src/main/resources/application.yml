@@ -1,0 +1,8 @@
+server:
+    port: 7070
+
+management:
+    metrics:
+        web:
+            server:
+                auto-time-requests: false

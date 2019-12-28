@@ -1,0 +1,5 @@
+# 注意：该文件的文件名不能随便起，<xxx>-<yyy>.yml，这里的xxx是之后其他要读取改配置文件的微服务名称，
+# 即spring.application.name属性值，yyy是之后spring.profile.active的属性值
+server:
+    port: 8070
+foo: foo version 1.0

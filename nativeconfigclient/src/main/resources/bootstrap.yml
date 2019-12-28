@@ -1,0 +1,10 @@
+# nativeconfigclient-dev.yml
+spring:
+    application:
+        name: nativeconfigclient
+    profiles:
+        active: dev
+    cloud:
+        config:
+            uri: http://localhost:8762  # 配置中心（微服务）访问地址
+            fail-fast: true # 设置客户端优先判断Config Server获取是否正常
